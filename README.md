@@ -1,0 +1,2 @@
+# Squeezebox
+Simple LMS Client
