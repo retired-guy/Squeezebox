@@ -22,6 +22,8 @@ pip3 install Pillow
 
 sudo apt install python3-evdev
 
+sudo apt install pigpiod
+
 
 Create a subdirectory (sb) in the pi home directory.  Download and unzip LMSTools from github into it.  Download the files from this repository into it, as well.
 
