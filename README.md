@@ -26,6 +26,11 @@ sudo apt install pigpiod
 
 python3 -m pip install pigpio
 
+sudo vi /etc/rc.local
+
+near the end, just before "exit 0", add this line to start pigpiod at bootup:
+
+/usr/bin/pigpiod
 
 Create a subdirectory (sb) in the pi home directory.  Download and unzip LMSTools from github into it.  Download the files from this repository into it, as well.
 
