@@ -17,4 +17,7 @@ Create a subdirectory (sb) in the pi home directory.  Download and unzip LMSTool
 
 Follow Pimoroni's guide to install and configure the Hyperpixel 4 display:  https://learn.pimoroni.com/article/getting-started-with-hyperpixel-4
 
+Create a systemd service to auto-start sb.py at boot: 
+https://www.raspberrypi.com/documentation/computers/using_linux.html#creating-a-service
+
 ![photo](https://blogger.googleusercontent.com/img/a/AVvXsEhMknYuzTLUjgOaBY3bprbqNAH_ZTRH4tSL0SEY7FEo-rhAtquIV9xGgr5IeupwkfhRanZm8FhUtDCllnxqEpNPSzXeiboBrS1ZGFbbwuEUo5rrPD6AVtlwL4yBVRy45xPeYeP0zZt8DJG9TXrHPpR4bLPUq4ehwG_UALyLl4Tmcemx1GGrNfLTOMtq-Q=s2048)
