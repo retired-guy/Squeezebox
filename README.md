@@ -3,17 +3,28 @@ Simple LMS Client
 Written for Hyperpixel 4" retangular touchscreen.  Very simple touch control, for fat fingers.  Just start/stop, next and prev controls.
 
 Some of the prep required:
+
 sudo apt update
+
 sudo apt upgrade
+
 sudo apt install python3-pip
+
 sudo usermod -a -G video pi
+
 sudo apt install libopen-jp2-7-dev
+
 sudo apt install libtiff5
+
 sudo apt install ttf-dejavu
+
 pip3 install Pillow
+
 sudo apt install python3-evdev
 
+
 Create a subdirectory (sb) in the pi home directory.  Download and unzip LMSTools from github into it.  Download the files from this repository into it, as well.
+
 
 Follow Pimoroni's guide to install and configure the Hyperpixel 4 display:  https://learn.pimoroni.com/article/getting-started-with-hyperpixel-4
 
