@@ -24,6 +24,8 @@ sudo apt install python3-evdev
 
 sudo apt install pigpiod
 
+python3 -m pip install pigpio
+
 
 Create a subdirectory (sb) in the pi home directory.  Download and unzip LMSTools from github into it.  Download the files from this repository into it, as well.
 
