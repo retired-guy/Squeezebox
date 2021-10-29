@@ -12,7 +12,7 @@ sudo apt install python3-pip
 
 sudo usermod -a -G video pi
 
-sudo apt install libopen-jp2-7-dev
+sudo apt install libopenjp2-7-dev
 
 sudo apt install libtiff5
 
@@ -20,7 +20,7 @@ sudo apt install ttf-dejavu
 
 pip3 install Pillow
 
-sudo apt install python3-evdev
+python3 -m pip install "evdev==1.4"
 
 sudo apt install pigpiod
 
